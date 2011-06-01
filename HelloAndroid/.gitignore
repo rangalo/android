@@ -1,0 +1,7 @@
+target
+target/*
+gen
+.idea
+*.iml
+*.swp
+*~
