@@ -3,6 +3,8 @@ target/*
 gen
 .idea
 *.iml
+*.ipr
+*.ips
 *.swp
 *~
 out
