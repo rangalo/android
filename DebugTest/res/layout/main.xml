@@ -7,7 +7,25 @@
 <TextView  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
-    android:text="Hello World, DebugTest"
+    android:text="@string/url_prompt"
     />
+ <EditText
+     android:id="@+id/URL"
+     android:layout_width="fill_parent"
+     android:layout_height="60.0dip"
+     android:maxLines="1"
+     />
+ <Button
+     android:id="@+id/btnGo"
+     android:layout_width="fill_parent"
+     android:layout_height="60.0dip"
+     android:text="Go"
+     />
+ <WebView
+     android:id="@+id/wvBrowser"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     />
+
 </LinearLayout>
 
