@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Sudoku</string>
+    <string name="main_title">Android Sudoku</string>
+    <string name="lbl_continue">Continue</string>
+    <string name="lbl_new_game">New game</string>
+    <string name="lbl_about">About</string>
+    <string name="lbl_exit">Exit</string>
 </resources>

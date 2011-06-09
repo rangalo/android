@@ -7,7 +7,28 @@
 <TextView  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
-    android:text="Hello World, Sudoku"
+    android:text="@string/main_title"
     />
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/lbl_continue"
+    />
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/lbl_new_game"
+    />
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/lbl_about"
+    />
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/lbl_exit"
+    />
+
 </LinearLayout>
 
