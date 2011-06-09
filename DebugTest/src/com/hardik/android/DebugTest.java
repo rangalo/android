@@ -17,6 +17,24 @@ public class DebugTest extends Activity
     private WebView wvBrowser;
 
 
+    // set up an onClick routine to gather URLs entered by the user
+    private final Button.OnClickListener btnGoOnClick = new Button.OnClickListener() {
+        public void onClick(View v) {
+            try{
+                String sURL = txtURL.getText().toString();
+                if(sURL.substring(0,7).equals("http://") ||sURL.substring(0,8).equals("https://") ) {
+                    wvBrowser.loadUrl(sURL);
+                } else {
+                    sURL = "http://" + sURL;
+                    wvBrowser.loadUrl(sURL);
+                }
+                wvBrowser.loadUrl(sURL);
+            } catch (Exception e) {
+            }
+        }
+    };
+
+
 
     /** Called when the activity is first created. */
     @Override
@@ -30,10 +48,6 @@ public class DebugTest extends Activity
         btnGo = (Button) findViewById(R.id.btnGo);
         wvBrowser = (WebView) findViewById(R.id.wvBrowser);
 
-        btnGo.setOnClickListener(new Button.OnClickListener() {
-            public  void  onClick(View v) {
-                wvBrowser.loadUrl(txtURL.getText().toString());
-            }
-        });
+        btnGo.setOnClickListener(btnGoOnClick);
     }
 }
