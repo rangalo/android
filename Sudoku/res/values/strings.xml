@@ -22,4 +22,8 @@
     <string name="txt_music_summary">Play background music</string>
     <string name="txt_hints">Hints</string>
     <string name="txt_hints_summary">Show hints during play</string>
+    <string name="txt_newgame_title">Difficulty</string>
+    <string name="lbl_easy">Easy</string>
+    <string name="lbl_medium">Medium</string>
+    <string name="lbl_hard">Hard</string>
 </resources>

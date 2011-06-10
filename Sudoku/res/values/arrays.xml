@@ -1,0 +1,8 @@
+<resources>
+    <array name="difficulty">
+        <item>@string/lbl_easy</item>
+        <item>@string/lbl_medium</item>
+        <item>@string/lbl_hard</item>
+    </array>
+
+</resources>
