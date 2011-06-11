@@ -10,7 +10,7 @@ import android.preference.PreferenceActivity;
  * Time: 2:01 PM
  * To change this template use File | Settings | File Templates.
  */
-public class Prefs extends PreferenceActivity{
+public class Prefs extends PreferenceActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -5,22 +5,22 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.util.Log;
 
-public class Sudoku extends Activity implements OnClickListener
-{
+public class Sudoku extends Activity implements OnClickListener {
 
     public static final String TAG = "Sudoku";
 
-    /** Called when the activity is first created. */
+    /**
+     * Called when the activity is first created.
+     */
     @Override
-    public void onCreate(Bundle savedInstanceState)
-    {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
@@ -38,7 +38,7 @@ public class Sudoku extends Activity implements OnClickListener
 
     @Override
     public void onClick(View view) {
-        switch(view.getId()){
+        switch (view.getId()) {
             case R.id.btn_about:
                 Intent i = new Intent(this, About.class);
                 startActivity(i);
@@ -66,7 +66,7 @@ public class Sudoku extends Activity implements OnClickListener
     }
 
     private void startGame(int i) {
-         Log.d(TAG, "clicked on " + i);
+        Log.d(TAG, "clicked on " + i);
         // Start game here
     }
 
@@ -79,7 +79,7 @@ public class Sudoku extends Activity implements OnClickListener
     }
 
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.settings:
                 startActivity(new Intent(this, Prefs.class));
                 return true;

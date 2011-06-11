@@ -1,53 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-     xmlns:android="http://schemas.android.com/apk/res/android"
-     android:background="@color/background"
-     android:layout_height="fill_parent"
-     android:layout_width="fill_parent"
-     android:padding="30dip"
-     android:orientation="horizontal"
-     >
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/background"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:padding="30dip"
+        android:orientation="horizontal"
+        >
 
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    >
-<TextView  
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:text="@string/txt_maintitle"
-    android:layout_marginBottom="25dip"
-    android:textSize="24.5sp"
-    />
-<Button
-    android:id="@+id/btn_continue"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/lbl_continue"
-    />
-<Button
-    android:id="@+id/btn_new"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/lbl_new_game"
-    />
-<Button
-    android:id="@+id/btn_about"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/lbl_about"
-    />
-<Button
-    android:id="@+id/btn_exit"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/lbl_exit"
-    />
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/txt_maintitle"
+                android:layout_marginBottom="25dip"
+                android:textSize="24.5sp"
+                />
+        <Button
+                android:id="@+id/btn_continue"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_continue"
+                />
+        <Button
+                android:id="@+id/btn_new"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_new_game"
+                />
+        <Button
+                android:id="@+id/btn_about"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_about"
+                />
+        <Button
+                android:id="@+id/btn_exit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_exit"
+                />
 
-</LinearLayout>
+    </LinearLayout>
 </LinearLayout>
 
