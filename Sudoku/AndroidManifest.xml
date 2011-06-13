@@ -21,6 +21,8 @@
                   android:label="@string/lbl_settings">
 
         </activity>
+        <activity android:name=".Game"
+                  android:label="@string/txt_gametitle"/>
 
     </application>
 </manifest> 

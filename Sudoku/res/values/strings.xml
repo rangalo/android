@@ -26,4 +26,9 @@
     <string name="lbl_easy">Easy</string>
     <string name="lbl_medium">Medium</string>
     <string name="lbl_hard">Hard</string>
+
+    <string name="txt_gametitle">Game</string>
+    <string name="lbl_no_moves">No moves</string>
+    <string name="txt_keypadtitle">Keypad</string>
+
 </resources>
