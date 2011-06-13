@@ -7,8 +7,6 @@ import android.util.Log;
 import android.view.Gravity;
 import android.widget.Toast;
 
-import java.security.KeyPair;
-
 /**
  * Created by IntelliJ IDEA.
  * User: hardik

@@ -10,8 +10,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.AnimationUtils;
 
-import java.io.FileReader;
-
 /**
  * Created by IntelliJ IDEA.
  * User: hardik
