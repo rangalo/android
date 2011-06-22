@@ -3,7 +3,7 @@ package com.hardik.audio;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class Autio extends Activity
+public class Audio extends Activity
 {
     /** Called when the activity is first created. */
     @Override
