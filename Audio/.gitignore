@@ -8,3 +8,6 @@ gen
 *.swp
 *~
 out
+.project
+.classpath
+.settings/
