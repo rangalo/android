@@ -28,7 +28,6 @@ public class DebugTest extends Activity
                     sURL = "http://" + sURL;
                     wvBrowser.loadUrl(sURL);
                 }
-                wvBrowser.loadUrl(sURL);
             } catch (Exception e) {
             }
         }
