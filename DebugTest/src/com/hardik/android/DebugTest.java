@@ -2,13 +2,10 @@ package com.hardik.android;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.os.StrictMode;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.EditText;
-
-import java.security.PublicKey;
 
 public class DebugTest extends Activity
 {
